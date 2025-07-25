@@ -1,0 +1,17 @@
+[project]
+name = "analyse_demission"
+version = "0.1.0"
+description = "Analyse de la démission chez TechNova"
+
+# Dépendances nécessaires au notebook
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.23",
+    "matplotlib>=3.6",
+    "seaborn>=0.12",
+    "scikit-learn>=1.2",
+    "shap>=0.43",
+    "imbalanced-learn>=0.10",
+]
+
+[tool.uv]
